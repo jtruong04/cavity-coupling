@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    302297,       8042]
-NotebookOptionsPosition[    300732,       8007]
-NotebookOutlinePosition[    301098,       8023]
-CellTagsIndexPosition[    301055,       8020]
+NotebookDataLength[    287702,       7517]
+NotebookOptionsPosition[    286134,       7482]
+NotebookOutlinePosition[    286499,       7498]
+CellTagsIndexPosition[    286456,       7495]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -225,13 +225,13 @@ Cell[BoxData[
          RowBox[{
           RowBox[{"Q", "[", 
            RowBox[{"[", 
-            RowBox[{"j", ",", "2"}], "]"}], "]"}], "-", 
+            RowBox[{"j", ",", "2"}], "]"}], "]"}], "+", 
           SubscriptBox["\[Omega]", "\"\<c\>\""]}]], "+", 
         FractionBox["1", 
          RowBox[{
           RowBox[{"Q", "[", 
            RowBox[{"[", 
-            RowBox[{"k", ",", "2"}], "]"}], "]"}], "-", 
+            RowBox[{"k", ",", "2"}], "]"}], "]"}], "+", 
           SubscriptBox["\[Omega]", "\"\<c\>\""]}]]}], ")"}], "*", 
       RowBox[{"(", 
        RowBox[{
@@ -339,8 +339,8 @@ Cell[BoxData[
   "MatrixForm"}]], "Input",
  CellChangeTimes->{{3.8350300881403837`*^9, 3.835030270032579*^9}, {
   3.8350303070060453`*^9, 3.835030392617854*^9}, {3.8350308462499857`*^9, 
-  3.835031034442172*^9}},
- CellLabel->"In[36]:=",ExpressionUUID->"75a38de4-b9e1-41ec-bc58-9c82b6553971"],
+  3.835031034442172*^9}, {3.835045128125553*^9, 3.835045130965481*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"75a38de4-b9e1-41ec-bc58-9c82b6553971"],
 
 Cell[BoxData[
  TagBox[
@@ -371,8 +371,7 @@ Cell[BoxData[
            SubscriptBox["\[Tau]", "\<\"-\"\>"]}]}], ")"}], " ", 
         SubsuperscriptBox["g", "\[Tau]", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
         SubscriptBox["\[Omega]", "\[Tau]"]}]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -400,13 +399,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -437,13 +434,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -475,13 +470,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -513,13 +506,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -544,13 +535,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -577,13 +566,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -609,13 +596,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -645,13 +630,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -668,13 +651,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -702,13 +683,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -739,13 +718,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -776,13 +753,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
        RowBox[{
@@ -804,8 +779,7 @@ Cell[BoxData[
            SubscriptBox["\[Sigma]", "\<\"-\"\>"]}]}], ")"}], " ", 
         SubsuperscriptBox["g", "\[Sigma]", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
         SubscriptBox["\[Omega]", "\[Sigma]"]}]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -834,13 +808,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -870,13 +842,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
@@ -903,8 +873,7 @@ Cell[BoxData[
         SubscriptBox["g", "\<\"-\"\>"], " ", 
         SubscriptBox["g", "\[Sigma]"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
         SubscriptBox["\[Omega]", "\[Sigma]"]}]], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -927,13 +896,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -957,13 +924,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -987,13 +952,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -1020,13 +983,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -1055,13 +1016,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -1076,13 +1035,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -1111,13 +1068,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -1151,13 +1106,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1187,13 +1140,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
@@ -1221,8 +1172,7 @@ Cell[BoxData[
            SubscriptBox["\[Tau]", "\<\"+\"\>"]}]}], ")"}], " ", 
         SubsuperscriptBox["g", "\<\"+\"\>", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
         SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
         SubscriptBox["\[Omega]", "\[Tau]"]}]], 
       RowBox[{
@@ -1240,14 +1190,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1280,13 +1228,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1313,13 +1259,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"+\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1347,13 +1291,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1381,13 +1323,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1418,13 +1358,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1457,13 +1395,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1492,13 +1428,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1530,14 +1464,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -1571,13 +1503,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1606,13 +1536,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1630,14 +1558,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
@@ -1664,8 +1590,7 @@ Cell[BoxData[
            SubscriptBox["\[Tau]", "\<\"-\"\>"]}]}], ")"}], " ", 
         SubsuperscriptBox["g", "\<\"+\"\>", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
         SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
         SubscriptBox["\[Omega]", "\[Tau]"]}]], 
       RowBox[{
@@ -1698,13 +1623,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1731,13 +1654,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"+\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1765,13 +1686,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1799,13 +1718,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1836,13 +1753,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1875,14 +1790,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -1910,13 +1823,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -1948,14 +1859,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -1989,13 +1898,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
        RowBox[{
@@ -2020,8 +1927,7 @@ Cell[BoxData[
         SubscriptBox["g", "\<\"-\"\>"], " ", 
         SubscriptBox["g", "\[Sigma]"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
         SubscriptBox["\[Omega]", "\[Sigma]"]}]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -2053,13 +1959,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -2092,13 +1996,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
@@ -2126,8 +2028,7 @@ Cell[BoxData[
            SubscriptBox["\[Tau]", "\<\"-\"\>"]}]}], ")"}], " ", 
         SubsuperscriptBox["g", "\<\"-\"\>", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
         SubscriptBox["\[Omega]", "\[Sigma]"]}]], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -2153,13 +2054,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"-\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -2186,13 +2085,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -2219,13 +2116,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -2255,13 +2150,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -2293,13 +2186,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -2327,13 +2218,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -2350,13 +2239,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -2384,13 +2271,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -2412,13 +2297,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -2443,13 +2326,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"+\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -2475,13 +2356,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"+\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -2507,91 +2386,85 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"-\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{
-         SuperscriptBox["g", "2"], " ", 
-         RowBox[{"(", 
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["g", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"0", ".", "n"}], "+", 
           RowBox[{
-           RowBox[{"0", ".", "n"}], "+", 
-           RowBox[{
-            SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
-            SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{"g", " ", 
-         RowBox[{"(", 
+           SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
+           SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{"g", " ", 
+        RowBox[{"(", 
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{"(", 
-             RowBox[{
-              RowBox[{"-", 
-               RowBox[{
-                SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
-                SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], "+", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", 
               RowBox[{
-               SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], ".", "n"}], 
-           "+", 
-           RowBox[{
-            SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], " ", 
-         SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{"g", " ", 
-         RowBox[{"(", 
-          RowBox[{
-           RowBox[{
-            RowBox[{"(", 
+               SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
+               SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], "+", 
              RowBox[{
-              RowBox[{"-", 
-               RowBox[{
-                SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
-                SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], "+", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], ".", "n"}], 
+          "+", 
+          RowBox[{
+           SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], " ", 
+        SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{"g", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", 
               RowBox[{
+               SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
+               SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], "+", 
+             RowBox[{
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], ".", "n"}], 
+          "+", 
+          RowBox[{
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{"g", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", 
+              RowBox[{
+               SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
                SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], ".", "n"}], 
-           "+", 
-           RowBox[{
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{"g", " ", 
-         RowBox[{"(", 
-          RowBox[{
-           RowBox[{
-            RowBox[{"(", 
+               SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], "+", 
              RowBox[{
-              RowBox[{"-", 
-               RowBox[{
-                SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
-                SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-                SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], "+", 
-              RowBox[{
-               SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], ".", "n"}], 
-           "+", 
-           RowBox[{
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], ".", "n"}], 
+          "+", 
+          RowBox[{
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
        RowBox[{"(", 
@@ -2616,13 +2489,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -2644,13 +2515,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -2675,13 +2544,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"-\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -2709,13 +2576,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -2738,13 +2603,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -2770,13 +2633,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -2803,13 +2664,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -2836,90 +2695,83 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{"g", " ", 
-         RowBox[{"(", 
+      FractionBox[
+       RowBox[{"g", " ", 
+        RowBox[{"(", 
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{"(", 
+           RowBox[{"(", 
+            RowBox[{
              RowBox[{
-              RowBox[{
-               SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
-               SubscriptBox["\[Tau]", "\<\"z\"\>"]}], "-", 
-              RowBox[{
-               SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], ".", "n"}], 
-           "+", 
-           RowBox[{
-            SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
-            SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
-         SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{
-         RowBox[{"(", 
-          RowBox[{
-           RowBox[{"0", ".", "n"}], "+", 
-           RowBox[{
-            SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
-         SubsuperscriptBox["g", "\<\"z,\[Tau]\"\>", "2"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{
-         RowBox[{"(", 
-          RowBox[{
-           RowBox[{
-            RowBox[{"(", 
+              SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"]}], "-", 
              RowBox[{
-              RowBox[{
-               SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Tau]", "\<\"z\"\>"]}], "-", 
-              RowBox[{
-               SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], ".", "n"}], 
-           "+", 
-           RowBox[{
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
-         SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{
-         RowBox[{"(", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], ".", "n"}], 
+          "+", 
           RowBox[{
-           RowBox[{
-            RowBox[{"(", 
+           SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
+           SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
+        SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"0", ".", "n"}], "+", 
+          RowBox[{
+           SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
+        SubsuperscriptBox["g", "\<\"z,\[Tau]\"\>", "2"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
              RowBox[{
-              RowBox[{
-               SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Tau]", "\<\"z\"\>"]}], "-", 
-              RowBox[{
-               SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], ".", "n"}], 
-           "+", 
-           RowBox[{
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
-         SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"]}], "-", 
+             RowBox[{
+              SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], ".", "n"}], 
+          "+", 
+          RowBox[{
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
+        SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"]}], "-", 
+             RowBox[{
+              SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], ".", "n"}], "+", 
+          RowBox[{
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
+        SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
        RowBox[{"(", 
@@ -2944,13 +2796,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -2973,13 +2823,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -3005,13 +2853,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -3040,13 +2886,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -3069,13 +2913,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -3101,13 +2943,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -3134,13 +2974,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -3167,92 +3005,86 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{"g", " ", 
-         RowBox[{"(", 
+      FractionBox[
+       RowBox[{"g", " ", 
+        RowBox[{"(", 
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{"(", 
+           RowBox[{"(", 
+            RowBox[{
              RowBox[{
-              RowBox[{
-               SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"z\"\>"]}], "-", 
+              SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"]}], "-", 
+             RowBox[{
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], ".", "n"}], 
+          "+", 
+          RowBox[{
+           SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", 
               RowBox[{
                SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], ".", "n"}], 
-           "+", 
-           RowBox[{
-            SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{
-         RowBox[{"(", 
-          RowBox[{
-           RowBox[{
-            RowBox[{"(", 
+               SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], "+", 
              RowBox[{
-              RowBox[{"-", 
-               RowBox[{
-                SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-                SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], "+", 
-              RowBox[{
-               SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], ".", "n"}], 
-           "+", 
-           RowBox[{
-            SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
-         SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{
-         RowBox[{"(", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], ".", "n"}], 
+          "+", 
           RowBox[{
-           RowBox[{"0", ".", "n"}], "+", 
-           RowBox[{
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], " ", 
-         SubsuperscriptBox["g", "\<\"z,\[Sigma]\"\>", "2"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{
-         RowBox[{"(", 
+           SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
+        SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"0", ".", "n"}], "+", 
           RowBox[{
-           RowBox[{
-            RowBox[{"(", 
-             RowBox[{
-              RowBox[{"-", 
-               RowBox[{
-                SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-                SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-                SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], "+", 
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], " ", 
+        SubsuperscriptBox["g", "\<\"z,\[Sigma]\"\>", "2"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", 
               RowBox[{
                SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], ".", "n"}], 
-           "+", 
-           RowBox[{
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
+               SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+               SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], "+", 
+             RowBox[{
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], ".", "n"}], 
+          "+", 
+          RowBox[{
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
        RowBox[{"(", 
@@ -3278,13 +3110,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -3307,13 +3137,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -3339,13 +3167,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -3376,13 +3202,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -3408,13 +3232,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -3443,13 +3265,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -3479,13 +3299,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -3515,99 +3333,92 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{"g", " ", 
-         RowBox[{"(", 
+      FractionBox[
+       RowBox[{"g", " ", 
+        RowBox[{"(", 
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{"(", 
+           RowBox[{"(", 
+            RowBox[{
              RowBox[{
-              RowBox[{
-               SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Tau]", "\<\"z\"\>"]}], "-", 
+              SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"]}], "-", 
+             RowBox[{
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], ".", "n"}], 
+          "+", 
+          RowBox[{
+           SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", 
               RowBox[{
                SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
                SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], ")"}], ".", "n"}], 
-           "+", 
-           RowBox[{
-            SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{
-         RowBox[{"(", 
-          RowBox[{
-           RowBox[{
-            RowBox[{"(", 
+               SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], "+", 
              RowBox[{
-              RowBox[{"-", 
-               RowBox[{
-                SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-                SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-                SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], "+", 
-              RowBox[{
-               SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], ".", "n"}], 
-           "+", 
-           RowBox[{
-            SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
-         SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{
-         RowBox[{"(", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], ".", "n"}], "+", 
           RowBox[{
-           RowBox[{
-            RowBox[{"(", 
+           SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
+        SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
              RowBox[{
-              RowBox[{
-               SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Tau]", "\<\"z\"\>"]}], "-", 
-              RowBox[{
-               SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-               SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], ".", "n"}], 
-           "+", 
-           RowBox[{
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{
-         RowBox[{"(", 
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"]}], "-", 
+             RowBox[{
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+              SubscriptBox["\[Sigma]", "\<\"z\"\>"]}]}], ")"}], ".", "n"}], 
+          "+", 
           RowBox[{
-           RowBox[{"0", ".", "n"}], "+", 
-           RowBox[{
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
-            SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
-         SubsuperscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>", "2"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"0", ".", "n"}], "+", 
+          RowBox[{
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Tau]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Sigma]", "\<\"z\"\>"], ".", 
+           SubscriptBox["\[Tau]", "\<\"z\"\>"]}]}], ")"}], " ", 
+        SubsuperscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>", "2"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
        RowBox[{"(", 
@@ -3635,13 +3446,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -3667,13 +3476,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -3702,13 +3509,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -3727,13 +3532,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -3761,13 +3564,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -3798,13 +3599,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -3836,14 +3635,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -3874,13 +3671,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -3905,13 +3700,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -3938,13 +3731,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -3970,13 +3761,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -4006,13 +3795,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
        RowBox[{
@@ -4038,8 +3825,7 @@ Cell[BoxData[
            SubscriptBox["\[Tau]", "\<\"+\"\>"]}]}], ")"}], " ", 
         SubsuperscriptBox["g", "\[Tau]", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
         SubscriptBox["\[Omega]", "\[Tau]"]}]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -4067,13 +3853,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -4104,13 +3888,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -4141,13 +3923,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -4162,13 +3942,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -4197,13 +3975,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -4232,13 +4008,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -4268,13 +4042,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -4297,13 +4069,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -4327,13 +4097,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -4357,13 +4125,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -4390,13 +4156,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -4425,13 +4189,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
        RowBox[{
@@ -4452,8 +4214,7 @@ Cell[BoxData[
            SubscriptBox["\[Sigma]", "\<\"+\"\>"]}]}], ")"}], " ", 
         SubsuperscriptBox["g", "\[Sigma]", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
         SubscriptBox["\[Omega]", "\[Sigma]"]}]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -4481,13 +4242,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -4521,13 +4280,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -4556,13 +4313,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -4594,14 +4349,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -4633,14 +4386,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -4658,13 +4409,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -4691,13 +4440,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"-\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -4725,13 +4472,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -4759,13 +4504,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -4796,13 +4539,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -4835,13 +4576,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -4870,13 +4609,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
@@ -4903,8 +4640,7 @@ Cell[BoxData[
            SubscriptBox["\[Tau]", "\<\"+\"\>"]}]}], ")"}], " ", 
         SubsuperscriptBox["g", "\<\"-\"\>", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
         SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
         SubscriptBox["\[Omega]", "\[Tau]"]}]]}
     },
@@ -4920,10 +4656,10 @@ Cell[BoxData[
    MatrixForm[BoxForm`e$]]]], "Output",
  CellChangeTimes->{{3.835030239077335*^9, 3.835030270943594*^9}, {
    3.83503033666566*^9, 3.835030393231834*^9}, 3.835030791265698*^9, {
-   3.835030834723061*^9, 3.835031034836628*^9}},
+   3.835030834723061*^9, 3.835031034836628*^9}, 3.835045132001678*^9},
  CellLabel->
-  "Out[36]//MatrixForm=",ExpressionUUID->"b107e34a-4a4f-4d5f-a8a8-\
-4dad306615a2"]
+  "Out[40]//MatrixForm=",ExpressionUUID->"e548dd6c-6019-4c1b-804e-\
+ef13b92b6228"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -5289,13 +5025,13 @@ Cell[BoxData[
          RowBox[{
           RowBox[{"Qi", "[", 
            RowBox[{"[", 
-            RowBox[{"j", ",", "2"}], "]"}], "]"}], "-", 
+            RowBox[{"j", ",", "2"}], "]"}], "]"}], "+", 
           SubscriptBox["\[Omega]", "\"\<c\>\""]}]], "+", 
         FractionBox["1", 
          RowBox[{
           RowBox[{"Qj", "[", 
            RowBox[{"[", 
-            RowBox[{"k", ",", "2"}], "]"}], "]"}], "-", 
+            RowBox[{"k", ",", "2"}], "]"}], "]"}], "+", 
           SubscriptBox["\[Omega]", "\"\<c\>\""]}]]}], ")"}], "*", 
       RowBox[{"(", 
        RowBox[{
@@ -5390,8 +5126,9 @@ Cell[BoxData[
        SubscriptBox["\[Tau]", "\"\<-i\>\""]}]}]}], "}"}]}], "//", 
   "MatrixForm"}]], "Input",
  CellChangeTimes->{{3.835030515655197*^9, 3.835030551053763*^9}, {
-  3.835031222574378*^9, 3.835031282586639*^9}},
- CellLabel->"In[39]:=",ExpressionUUID->"b3a5d0a1-9ae6-4c85-a0ff-87434f922f97"],
+  3.835031222574378*^9, 3.835031282586639*^9}, {3.835312385655526*^9, 
+  3.835312388317642*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"b3a5d0a1-9ae6-4c85-a0ff-87434f922f97"],
 
 Cell[BoxData[
  TagBox[
@@ -5406,8 +5143,7 @@ Cell[BoxData[
          SubscriptBox["\[Tau]", "\<\"-j\"\>"]}], " ", 
         SubsuperscriptBox["g", "\[Tau]", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
         SubscriptBox["\[Omega]", "\[Tau]"]}]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5421,13 +5157,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5442,13 +5176,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -5464,13 +5196,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -5486,13 +5216,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -5503,13 +5231,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5521,13 +5247,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5539,13 +5263,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5558,13 +5280,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5578,13 +5298,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5598,13 +5316,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5619,13 +5335,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -5641,13 +5355,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
        RowBox[{
@@ -5656,8 +5368,7 @@ Cell[BoxData[
          SubscriptBox["\[Sigma]", "\<\"-j\"\>"]}], " ", 
         SubsuperscriptBox["g", "\[Sigma]", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
         SubscriptBox["\[Omega]", "\[Sigma]"]}]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5671,13 +5382,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -5692,13 +5401,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
@@ -5710,8 +5417,7 @@ Cell[BoxData[
         SubscriptBox["g", "\<\"-\"\>"], " ", 
         SubscriptBox["g", "\[Sigma]"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
         SubscriptBox["\[Omega]", "\[Sigma]"]}]], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -5721,13 +5427,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5738,13 +5442,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5755,13 +5457,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5773,13 +5473,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5793,13 +5491,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5811,13 +5507,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -5831,13 +5525,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -5854,13 +5546,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -5875,13 +5565,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
@@ -5893,8 +5581,7 @@ Cell[BoxData[
          SubscriptBox["\[Tau]", "\<\"+j\"\>"]}], " ", 
         SubsuperscriptBox["g", "\<\"+\"\>", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
         SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
         SubscriptBox["\[Omega]", "\[Tau]"]}]], 
       RowBox[{
@@ -5909,14 +5596,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -5932,13 +5617,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -5950,13 +5633,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"+\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -5969,13 +5650,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -5988,13 +5667,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6008,13 +5685,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6030,13 +5705,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6051,13 +5724,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6073,14 +5744,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -6097,13 +5766,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6118,13 +5785,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6139,14 +5804,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
@@ -6158,8 +5821,7 @@ Cell[BoxData[
          SubscriptBox["\[Tau]", "\<\"-j\"\>"]}], " ", 
         SubsuperscriptBox["g", "\<\"+\"\>", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
         SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
         SubscriptBox["\[Omega]", "\[Tau]"]}]], 
       RowBox[{
@@ -6175,13 +5837,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6193,13 +5853,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"+\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6212,13 +5870,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6231,13 +5887,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6251,13 +5905,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6273,14 +5925,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -6294,13 +5944,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6316,14 +5964,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -6340,13 +5986,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
        RowBox[{
@@ -6357,8 +6001,7 @@ Cell[BoxData[
         SubscriptBox["g", "\<\"-\"\>"], " ", 
         SubscriptBox["g", "\[Sigma]"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
         SubscriptBox["\[Omega]", "\[Sigma]"]}]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -6373,13 +6016,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6395,13 +6036,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
@@ -6413,8 +6052,7 @@ Cell[BoxData[
          SubscriptBox["\[Tau]", "\<\"-j\"\>"]}], " ", 
         SubsuperscriptBox["g", "\<\"-\"\>", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
         SubscriptBox["\[Omega]", "\[Sigma]"]}]], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -6425,13 +6063,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"-\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -6443,13 +6079,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -6461,13 +6095,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -6480,13 +6112,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -6501,13 +6131,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -6521,13 +6149,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -6541,13 +6167,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -6560,13 +6184,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -6576,13 +6198,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -6593,13 +6213,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"+\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6611,13 +6229,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"+\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6629,47 +6245,41 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"-\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
-      RowBox[{"-", 
-       FractionBox[
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["g", "2"], " ", 
         RowBox[{
-         SuperscriptBox["g", "2"], " ", 
-         RowBox[{
-          SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
-          SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{"g", " ", 
-         RowBox[{
-          SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Sigma]", "\<\"0\"\>"]}], " ", 
-         SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{"g", " ", 
-         RowBox[{
-          SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Sigma]", "\<\"0\"\>"]}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{"g", " ", 
-         RowBox[{
-          SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Sigma]", "\<\"0\"\>"]}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
+         SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
+         SubscriptBox["\[Sigma]", "\<\"0\"\>"]}]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{"g", " ", 
+        RowBox[{
+         SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Sigma]", "\<\"0\"\>"]}], " ", 
+        SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{"g", " ", 
+        RowBox[{
+         SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Sigma]", "\<\"0\"\>"]}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{"g", " ", 
+        RowBox[{
+         SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Sigma]", "\<\"0\"\>"]}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
        RowBox[{
@@ -6679,13 +6289,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -6695,13 +6303,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -6712,13 +6318,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"-\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -6732,13 +6336,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -6749,13 +6351,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -6767,13 +6367,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6786,13 +6384,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6805,49 +6401,43 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{"g", " ", 
-         RowBox[{
-          SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
-          SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
-         SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
+      FractionBox[
+       RowBox[{"g", " ", 
         RowBox[{
-         RowBox[{
-          SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
-         SubsuperscriptBox["g", "\<\"z,\[Tau]\"\>", "2"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
+         SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
+         SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
+        SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
         RowBox[{
-         RowBox[{
-          SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
-         SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
+         SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
+        SubsuperscriptBox["g", "\<\"z,\[Tau]\"\>", "2"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
         RowBox[{
-         RowBox[{
-          SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
-         SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
+         SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
+        SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{
+         SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
+        SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
        RowBox[{
@@ -6858,13 +6448,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -6875,13 +6463,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -6893,13 +6479,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -6913,13 +6497,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -6930,13 +6512,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -6948,13 +6528,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6967,13 +6545,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -6986,49 +6562,43 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{"g", " ", 
-         RowBox[{
-          SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
-          SubscriptBox["\[Sigma]", "\<\"zj\"\>"]}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
+      FractionBox[
+       RowBox[{"g", " ", 
         RowBox[{
-         RowBox[{
-          SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Sigma]", "\<\"zj\"\>"]}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
-         SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
+         SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
+         SubscriptBox["\[Sigma]", "\<\"zj\"\>"]}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
         RowBox[{
-         RowBox[{
-          SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Sigma]", "\<\"zj\"\>"]}], " ", 
-         SubsuperscriptBox["g", "\<\"z,\[Sigma]\"\>", "2"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
+         SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Sigma]", "\<\"zj\"\>"]}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
+        SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
         RowBox[{
-         RowBox[{
-          SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Sigma]", "\<\"zj\"\>"]}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
+         SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Sigma]", "\<\"zj\"\>"]}], " ", 
+        SubsuperscriptBox["g", "\<\"z,\[Sigma]\"\>", "2"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{
+         SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Sigma]", "\<\"zj\"\>"]}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
        RowBox[{
@@ -7039,13 +6609,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7056,13 +6624,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7074,13 +6640,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -7095,13 +6659,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7113,13 +6675,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7132,13 +6692,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7152,13 +6710,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7172,53 +6728,47 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
-      RowBox[{"-", 
-       FractionBox[
-        RowBox[{"g", " ", 
-         RowBox[{
-          SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
-          SubscriptBox["\[Sigma]", "\<\"zj\"\>"], ".", 
-          SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
+      FractionBox[
+       RowBox[{"g", " ", 
         RowBox[{
-         RowBox[{
-          SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Sigma]", "\<\"zj\"\>"], ".", 
-          SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
-         SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
+         SubscriptBox["\[Sigma]", "\<\"0\"\>"], ".", 
+         SubscriptBox["\[Sigma]", "\<\"zj\"\>"], ".", 
+         SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
         RowBox[{
-         RowBox[{
-          SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Sigma]", "\<\"zj\"\>"], ".", 
-          SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
-         SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
-      RowBox[{"-", 
-       FractionBox[
+         SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Sigma]", "\<\"zj\"\>"], ".", 
+         SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
+        SubscriptBox["g", "\<\"z,\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
         RowBox[{
-         RowBox[{
-          SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
-          SubscriptBox["\[Sigma]", "\<\"zj\"\>"], ".", 
-          SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
-         SubsuperscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>", "2"]}], 
-        SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], 
+         SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Sigma]", "\<\"zj\"\>"], ".", 
+         SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
+        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{
+         SubscriptBox["\[Sigma]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Tau]", "\<\"zi\"\>"], ".", 
+         SubscriptBox["\[Sigma]", "\<\"zj\"\>"], ".", 
+         SubscriptBox["\[Tau]", "\<\"zj\"\>"]}], " ", 
+        SubsuperscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>", "2"]}], 
+       SubscriptBox["\[Omega]", "\<\"c\"\>"]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
        RowBox[{
@@ -7230,13 +6780,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7248,13 +6796,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7267,13 +6813,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -7289,13 +6833,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7309,13 +6851,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7330,13 +6870,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7352,14 +6890,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7374,13 +6910,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -7391,13 +6925,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7409,13 +6941,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7427,13 +6957,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7446,13 +6974,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Tau]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
        RowBox[{
@@ -7463,8 +6989,7 @@ Cell[BoxData[
          SubscriptBox["\[Tau]", "\<\"+j\"\>"]}], " ", 
         SubsuperscriptBox["g", "\[Tau]", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
         SubscriptBox["\[Omega]", "\[Tau]"]}]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7478,13 +7003,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7499,13 +7022,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -7521,13 +7042,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7539,13 +7058,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7559,13 +7076,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7580,13 +7095,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7601,13 +7114,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", "g", " ", 
@@ -7617,13 +7128,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7634,13 +7143,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7651,13 +7158,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7669,13 +7174,11 @@ Cell[BoxData[
        SubscriptBox["g", "\[Sigma]"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]]}], ")"}]}], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7689,13 +7192,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
        RowBox[{
@@ -7704,8 +7205,7 @@ Cell[BoxData[
          SubscriptBox["\[Sigma]", "\<\"+j\"\>"]}], " ", 
         SubsuperscriptBox["g", "\[Sigma]", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
         SubscriptBox["\[Omega]", "\[Sigma]"]}]], 
       RowBox[{
        FractionBox["1", "2"], " ", 
@@ -7719,13 +7219,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}]},
      {
@@ -7742,13 +7240,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7763,13 +7259,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7785,14 +7279,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7808,14 +7300,12 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "-", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7830,13 +7320,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "-", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "-", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7848,13 +7336,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"-\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7867,13 +7353,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7886,13 +7370,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7906,13 +7388,11 @@ Cell[BoxData[
        SubscriptBox["g", "\<\"z,\[Sigma]\[Tau]\"\>"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", 
-          FractionBox["1", 
-           SubscriptBox["\[Omega]", "\<\"c\"\>"]]}], "+", 
+         FractionBox["1", 
+          SubscriptBox["\[Omega]", "\<\"c\"\>"]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7928,13 +7408,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       RowBox[{
@@ -7949,13 +7427,11 @@ Cell[BoxData[
         RowBox[{
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"]}]], "+", 
          FractionBox["1", 
           RowBox[{
-           RowBox[{"-", 
-            SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+           SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
            SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
            SubscriptBox["\[Omega]", "\[Tau]"]}]]}], ")"}]}], 
       FractionBox[
@@ -7967,8 +7443,7 @@ Cell[BoxData[
          SubscriptBox["\[Tau]", "\<\"+j\"\>"]}], " ", 
         SubsuperscriptBox["g", "\<\"-\"\>", "2"]}], 
        RowBox[{
-        RowBox[{"-", 
-         SubscriptBox["\[Omega]", "\<\"c\"\>"]}], "+", 
+        SubscriptBox["\[Omega]", "\<\"c\"\>"], "+", 
         SubscriptBox["\[Omega]", "\[Sigma]"], "+", 
         SubscriptBox["\[Omega]", "\[Tau]"]}]]}
     },
@@ -7983,10 +7458,10 @@ Cell[BoxData[
   Function[BoxForm`e$, 
    MatrixForm[BoxForm`e$]]]], "Output",
  CellChangeTimes->{{3.835030526123115*^9, 3.835030551585614*^9}, {
-  3.835031233264152*^9, 3.8350312833989277`*^9}},
+   3.835031233264152*^9, 3.8350312833989277`*^9}, 3.8353123936337442`*^9},
  CellLabel->
-  "Out[39]//MatrixForm=",ExpressionUUID->"480aaf47-37b2-4afc-90bb-\
-05a0b2c4111a"]
+  "Out[41]//MatrixForm=",ExpressionUUID->"c54a3e8c-1a27-4610-a9f7-\
+11e66d98ba44"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -8007,7 +7482,7 @@ Cell[BoxData[
 },
 WindowSize->{1680, 997},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
-Magnification:>1.5 Inherited,
+Magnification:>2. Inherited,
 FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
 StyleDefinitions->"Default.nb"
 ]
@@ -8022,27 +7497,27 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 427, 10, 46, "Input",ExpressionUUID->"46906e15-e29a-4a57-92e8-cb4c7a4b77e3"],
+Cell[558, 20, 427, 10, 59, "Input",ExpressionUUID->"46906e15-e29a-4a57-92e8-cb4c7a4b77e3"],
 Cell[CellGroupData[{
-Cell[1010, 34, 3045, 84, 84, "Input",ExpressionUUID->"9df03abd-599c-4d71-8f7a-c150d9da2157"],
-Cell[4058, 120, 2919, 83, 90, "Output",ExpressionUUID->"431e8b1f-d1a4-49ca-a593-c4d3507098e4"]
+Cell[1010, 34, 3045, 84, 145, "Input",ExpressionUUID->"9df03abd-599c-4d71-8f7a-c150d9da2157"],
+Cell[4058, 120, 2919, 83, 113, "Output",ExpressionUUID->"431e8b1f-d1a4-49ca-a593-c4d3507098e4"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7014, 208, 5078, 134, 273, "Input",ExpressionUUID->"75a38de4-b9e1-41ec-bc58-9c82b6553971"],
-Cell[12095, 344, 174124, 4581, 652, "Output",ExpressionUUID->"b107e34a-4a4f-4d5f-a8a8-4dad306615a2"]
+Cell[7014, 208, 5124, 134, 441, "Input",ExpressionUUID->"75a38de4-b9e1-41ec-bc58-9c82b6553971"],
+Cell[12141, 344, 166678, 4317, 844, "Output",ExpressionUUID->"e548dd6c-6019-4c1b-804e-ef13b92b6228"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[186256, 4930, 5994, 167, 154, "Input",ExpressionUUID->"4d8f8412-cd63-4269-ba65-96aee367428c"],
-Cell[192253, 5099, 2940, 83, 90, "Output",ExpressionUUID->"7c8154e6-d2ff-4930-9abb-a1703736ca90"],
-Cell[195196, 5184, 2940, 83, 90, "Output",ExpressionUUID->"bdd91f56-55f1-4b72-9915-c05abf112620"]
+Cell[178856, 4666, 5994, 167, 278, "Input",ExpressionUUID->"4d8f8412-cd63-4269-ba65-96aee367428c"],
+Cell[184853, 4835, 2940, 83, 179, "Output",ExpressionUUID->"7c8154e6-d2ff-4930-9abb-a1703736ca90"],
+Cell[187796, 4920, 2940, 83, 181, "Output",ExpressionUUID->"bdd91f56-55f1-4b72-9915-c05abf112620"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[198173, 5272, 4652, 121, 242, "Input",ExpressionUUID->"b3a5d0a1-9ae6-4c85-a0ff-87434f922f97"],
-Cell[202828, 5395, 97358, 2593, 730, "Output",ExpressionUUID->"480aaf47-37b2-4afc-90bb-05a0b2c4111a"]
+Cell[190773, 5008, 4701, 122, 441, "Input",ExpressionUUID->"b3a5d0a1-9ae6-4c85-a0ff-87434f922f97"],
+Cell[195477, 5132, 90111, 2331, 924, "Output",ExpressionUUID->"c54a3e8c-1a27-4610-a9f7-11e66d98ba44"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[300223, 7993, 231, 4, 46, "Input",ExpressionUUID->"1c7fde8f-bf9c-48b0-b2dc-80c77a0cca12"],
-Cell[300457, 7999, 259, 5, 52, "Output",ExpressionUUID->"0ef48180-9ccd-48aa-953b-4857216bf793"]
+Cell[285625, 7468, 231, 4, 59, "Input",ExpressionUUID->"1c7fde8f-bf9c-48b0-b2dc-80c77a0cca12"],
+Cell[285859, 7474, 259, 5, 89, "Output",ExpressionUUID->"0ef48180-9ccd-48aa-953b-4857216bf793"]
 }, Open  ]]
 }
 ]
