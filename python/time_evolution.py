@@ -78,6 +78,7 @@ def plotEvolution(timeRange,
                 label=rf"$\rho_{{{state_row.label},{state_col.label}}}$",
             )
     if include_legend:
+        axs[0, 0].legend(loc=1, framealpha=1)
         axs[0, -1].legend(loc=1, framealpha=1)
     
     fig.savefig(file_name)
